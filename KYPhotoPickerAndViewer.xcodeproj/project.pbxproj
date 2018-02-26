@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631EF1D29ADEB978427A3E72 /* Pods_KYPhotoPickerAndViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77A18E5041D2ECE6F337ADC /* Pods_KYPhotoPickerAndViewer.framework */; };
+		7A7E4CF3490DBDF06ED81AFA /* Pods_KYPhotoPickerAndViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FC154DDFBF57FDA304E3DD /* Pods_KYPhotoPickerAndViewerUITests.framework */; };
 		8D5C29231FF4E93A000E7087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29221FF4E93A000E7087 /* AppDelegate.swift */; };
 		8D5C29251FF4E93A000E7087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29241FF4E93A000E7087 /* ViewController.swift */; };
 		8D5C29281FF4E93A000E7087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C29261FF4E93A000E7087 /* Main.storyboard */; };
@@ -14,6 +16,21 @@
 		8D5C292D1FF4E93A000E7087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C292B1FF4E93A000E7087 /* LaunchScreen.storyboard */; };
 		8D5C29381FF4E93A000E7087 /* KYPhotoPickerAndViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29371FF4E93A000E7087 /* KYPhotoPickerAndViewerTests.swift */; };
 		8D5C29431FF4E93A000E7087 /* KYPhotoPickerAndViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29421FF4E93A000E7087 /* KYPhotoPickerAndViewerUITests.swift */; };
+		8D5C29601FF4EB93000E7087 /* KYImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29511FF4EB93000E7087 /* KYImageView.swift */; };
+		8D5C29611FF4EB93000E7087 /* KYMutiPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C29521FF4EB93000E7087 /* KYMutiPhotoPicker.bundle */; };
+		8D5C29621FF4EB93000E7087 /* KYMutiPickerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29531FF4EB93000E7087 /* KYMutiPickerHeader.swift */; };
+		8D5C29631FF4EB93000E7087 /* KYTransformAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29541FF4EB93000E7087 /* KYTransformAnimation.swift */; };
+		8D5C29641FF4EB93000E7087 /* KYAddImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29561FF4EB93000E7087 /* KYAddImageCell.swift */; };
+		8D5C29651FF4EB93000E7087 /* KYAddImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C29571FF4EB93000E7087 /* KYAddImageCell.xib */; };
+		8D5C29661FF4EB93000E7087 /* KYImagePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C29581FF4EB93000E7087 /* KYImagePickerCell.swift */; };
+		8D5C29671FF4EB93000E7087 /* KYImagePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C29591FF4EB93000E7087 /* KYImagePickerCell.xib */; };
+		8D5C29681FF4EB93000E7087 /* KYMutiPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C295A1FF4EB93000E7087 /* KYMutiPickerController.swift */; };
+		8D5C29691FF4EB93000E7087 /* KYPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C295B1FF4EB93000E7087 /* KYPreviewViewController.swift */; };
+		8D5C296A1FF4EB93000E7087 /* KYSquaredPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C295C1FF4EB93000E7087 /* KYSquaredPickerView.swift */; };
+		8D5C296B1FF4EB93000E7087 /* KYImageViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C295E1FF4EB93000E7087 /* KYImageViewBar.swift */; };
+		8D5C296C1FF4EB93000E7087 /* KYImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C295F1FF4EB93000E7087 /* KYImageViewer.swift */; };
+		8D5C296F1FF4ECF7000E7087 /* Double+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C296E1FF4ECF7000E7087 /* Double+Time.swift */; };
+		E4B576DC3EB931EBB6E014D6 /* Pods_KYPhotoPickerAndViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0889F81FDD8AB0A2F64FC9 /* Pods_KYPhotoPickerAndViewerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D8233C1B5659B913144E0F3 /* Pods-KYPhotoPickerAndViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYPhotoPickerAndViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYPhotoPickerAndViewer/Pods-KYPhotoPickerAndViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0F4FB29DF4EFB4BE86F941 /* Pods-KYPhotoPickerAndViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYPhotoPickerAndViewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYPhotoPickerAndViewerUITests/Pods-KYPhotoPickerAndViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0889F81FDD8AB0A2F64FC9 /* Pods_KYPhotoPickerAndViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYPhotoPickerAndViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C8AEB37467362A90DD644D /* Pods-KYPhotoPickerAndViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYPhotoPickerAndViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYPhotoPickerAndViewer/Pods-KYPhotoPickerAndViewer.release.xcconfig"; sourceTree = "<group>"; };
+		85CB4A9E191D56BA89F89472 /* Pods-KYPhotoPickerAndViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYPhotoPickerAndViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYPhotoPickerAndViewerTests/Pods-KYPhotoPickerAndViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8742CABB6E4E751C47B7B2E2 /* Pods-KYPhotoPickerAndViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYPhotoPickerAndViewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYPhotoPickerAndViewerUITests/Pods-KYPhotoPickerAndViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8D5C291F1FF4E93A000E7087 /* KYPhotoPickerAndViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYPhotoPickerAndViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5C29221FF4E93A000E7087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D5C29241FF4E93A000E7087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,23 @@
 		8D5C293E1FF4E93A000E7087 /* KYPhotoPickerAndViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYPhotoPickerAndViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5C29421FF4E93A000E7087 /* KYPhotoPickerAndViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYPhotoPickerAndViewerUITests.swift; sourceTree = "<group>"; };
 		8D5C29441FF4E93A000E7087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5C29511FF4EB93000E7087 /* KYImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYImageView.swift; sourceTree = "<group>"; };
+		8D5C29521FF4EB93000E7087 /* KYMutiPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KYMutiPhotoPicker.bundle; sourceTree = "<group>"; };
+		8D5C29531FF4EB93000E7087 /* KYMutiPickerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYMutiPickerHeader.swift; sourceTree = "<group>"; };
+		8D5C29541FF4EB93000E7087 /* KYTransformAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYTransformAnimation.swift; sourceTree = "<group>"; };
+		8D5C29561FF4EB93000E7087 /* KYAddImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAddImageCell.swift; sourceTree = "<group>"; };
+		8D5C29571FF4EB93000E7087 /* KYAddImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYAddImageCell.xib; sourceTree = "<group>"; };
+		8D5C29581FF4EB93000E7087 /* KYImagePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYImagePickerCell.swift; sourceTree = "<group>"; };
+		8D5C29591FF4EB93000E7087 /* KYImagePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYImagePickerCell.xib; sourceTree = "<group>"; };
+		8D5C295A1FF4EB93000E7087 /* KYMutiPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYMutiPickerController.swift; sourceTree = "<group>"; };
+		8D5C295B1FF4EB93000E7087 /* KYPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYPreviewViewController.swift; sourceTree = "<group>"; };
+		8D5C295C1FF4EB93000E7087 /* KYSquaredPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYSquaredPickerView.swift; sourceTree = "<group>"; };
+		8D5C295E1FF4EB93000E7087 /* KYImageViewBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYImageViewBar.swift; sourceTree = "<group>"; };
+		8D5C295F1FF4EB93000E7087 /* KYImageViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYImageViewer.swift; sourceTree = "<group>"; };
+		8D5C296E1FF4ECF7000E7087 /* Double+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Time.swift"; sourceTree = "<group>"; };
+		937B3C27D5E2B33FF296564B /* Pods-KYPhotoPickerAndViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYPhotoPickerAndViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYPhotoPickerAndViewerTests/Pods-KYPhotoPickerAndViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9FC154DDFBF57FDA304E3DD /* Pods_KYPhotoPickerAndViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYPhotoPickerAndViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77A18E5041D2ECE6F337ADC /* Pods_KYPhotoPickerAndViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYPhotoPickerAndViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631EF1D29ADEB978427A3E72 /* Pods_KYPhotoPickerAndViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B576DC3EB931EBB6E014D6 /* Pods_KYPhotoPickerAndViewerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7E4CF3490DBDF06ED81AFA /* Pods_KYPhotoPickerAndViewerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +124,8 @@
 				8D5C29361FF4E93A000E7087 /* KYPhotoPickerAndViewerTests */,
 				8D5C29411FF4E93A000E7087 /* KYPhotoPickerAndViewerUITests */,
 				8D5C29201FF4E93A000E7087 /* Products */,
+				93D0F009B1633D51EEAA4458 /* Pods */,
+				B0DC3B010384AB25224CD24D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +142,7 @@
 		8D5C29211FF4E93A000E7087 /* KYPhotoPickerAndViewer */ = {
 			isa = PBXGroup;
 			children = (
+				8D5C29501FF4EB93000E7087 /* MutiPhotoPicker */,
 				8D5C29221FF4E93A000E7087 /* AppDelegate.swift */,
 				8D5C29241FF4E93A000E7087 /* ViewController.swift */,
 				8D5C29261FF4E93A000E7087 /* Main.storyboard */,
@@ -125,6 +171,74 @@
 			path = KYPhotoPickerAndViewerUITests;
 			sourceTree = "<group>";
 		};
+		8D5C29501FF4EB93000E7087 /* MutiPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C29511FF4EB93000E7087 /* KYImageView.swift */,
+				8D5C29521FF4EB93000E7087 /* KYMutiPhotoPicker.bundle */,
+				8D5C29531FF4EB93000E7087 /* KYMutiPickerHeader.swift */,
+				8D5C29541FF4EB93000E7087 /* KYTransformAnimation.swift */,
+				8D5C296D1FF4ECDF000E7087 /* Util */,
+				8D5C29551FF4EB93000E7087 /* Picker */,
+				8D5C295D1FF4EB93000E7087 /* Viewer */,
+			);
+			path = MutiPhotoPicker;
+			sourceTree = "<group>";
+		};
+		8D5C29551FF4EB93000E7087 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C29561FF4EB93000E7087 /* KYAddImageCell.swift */,
+				8D5C29571FF4EB93000E7087 /* KYAddImageCell.xib */,
+				8D5C29581FF4EB93000E7087 /* KYImagePickerCell.swift */,
+				8D5C29591FF4EB93000E7087 /* KYImagePickerCell.xib */,
+				8D5C295A1FF4EB93000E7087 /* KYMutiPickerController.swift */,
+				8D5C295B1FF4EB93000E7087 /* KYPreviewViewController.swift */,
+				8D5C295C1FF4EB93000E7087 /* KYSquaredPickerView.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		8D5C295D1FF4EB93000E7087 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C295E1FF4EB93000E7087 /* KYImageViewBar.swift */,
+				8D5C295F1FF4EB93000E7087 /* KYImageViewer.swift */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		8D5C296D1FF4ECDF000E7087 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C296E1FF4ECF7000E7087 /* Double+Time.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		93D0F009B1633D51EEAA4458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D8233C1B5659B913144E0F3 /* Pods-KYPhotoPickerAndViewer.debug.xcconfig */,
+				80C8AEB37467362A90DD644D /* Pods-KYPhotoPickerAndViewer.release.xcconfig */,
+				85CB4A9E191D56BA89F89472 /* Pods-KYPhotoPickerAndViewerTests.debug.xcconfig */,
+				937B3C27D5E2B33FF296564B /* Pods-KYPhotoPickerAndViewerTests.release.xcconfig */,
+				4B0F4FB29DF4EFB4BE86F941 /* Pods-KYPhotoPickerAndViewerUITests.debug.xcconfig */,
+				8742CABB6E4E751C47B7B2E2 /* Pods-KYPhotoPickerAndViewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0DC3B010384AB25224CD24D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77A18E5041D2ECE6F337ADC /* Pods_KYPhotoPickerAndViewer.framework */,
+				6F0889F81FDD8AB0A2F64FC9 /* Pods_KYPhotoPickerAndViewerTests.framework */,
+				A9FC154DDFBF57FDA304E3DD /* Pods_KYPhotoPickerAndViewerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D5C29471FF4E93A000E7087 /* Build configuration list for PBXNativeTarget "KYPhotoPickerAndViewer" */;
 			buildPhases = (
+				F1D7386ACB227E29D23207E5 /* [CP] Check Pods Manifest.lock */,
 				8D5C291B1FF4E93A000E7087 /* Sources */,
 				8D5C291C1FF4E93A000E7087 /* Frameworks */,
 				8D5C291D1FF4E93A000E7087 /* Resources */,
+				4BE8E1E573EEB816155A0037 /* [CP] Embed Pods Frameworks */,
+				81817EE035B9BED94755D42C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D5C294A1FF4E93A000E7087 /* Build configuration list for PBXNativeTarget "KYPhotoPickerAndViewerTests" */;
 			buildPhases = (
+				73A39A0B0DD63C89845CDB4F /* [CP] Check Pods Manifest.lock */,
 				8D5C292F1FF4E93A000E7087 /* Sources */,
 				8D5C29301FF4E93A000E7087 /* Frameworks */,
 				8D5C29311FF4E93A000E7087 /* Resources */,
+				F594897FC058498AB2A3D079 /* [CP] Embed Pods Frameworks */,
+				94937A493194CFD6403DD9C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D5C294D1FF4E93A000E7087 /* Build configuration list for PBXNativeTarget "KYPhotoPickerAndViewerUITests" */;
 			buildPhases = (
+				530E3858C2A3CB26A937D635 /* [CP] Check Pods Manifest.lock */,
 				8D5C293A1FF4E93A000E7087 /* Sources */,
 				8D5C293B1FF4E93A000E7087 /* Frameworks */,
 				8D5C293C1FF4E93A000E7087 /* Resources */,
+				F7FD29F49E3C21293CAD1F55 /* [CP] Embed Pods Frameworks */,
+				83D94ACB67845F51076DC4AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +358,9 @@
 				8D5C292D1FF4E93A000E7087 /* LaunchScreen.storyboard in Resources */,
 				8D5C292A1FF4E93A000E7087 /* Assets.xcassets in Resources */,
 				8D5C29281FF4E93A000E7087 /* Main.storyboard in Resources */,
+				8D5C29651FF4EB93000E7087 /* KYAddImageCell.xib in Resources */,
+				8D5C29611FF4EB93000E7087 /* KYMutiPhotoPicker.bundle in Resources */,
+				8D5C29671FF4EB93000E7087 /* KYImagePickerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +380,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BE8E1E573EEB816155A0037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYPhotoPickerAndViewer/Pods-KYPhotoPickerAndViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		530E3858C2A3CB26A937D635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73A39A0B0DD63C89845CDB4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81817EE035B9BED94755D42C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYPhotoPickerAndViewer/Pods-KYPhotoPickerAndViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D94ACB67845F51076DC4AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYPhotoPickerAndViewerUITests/Pods-KYPhotoPickerAndViewerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94937A493194CFD6403DD9C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYPhotoPickerAndViewerTests/Pods-KYPhotoPickerAndViewerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D7386ACB227E29D23207E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F594897FC058498AB2A3D079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYPhotoPickerAndViewerTests/Pods-KYPhotoPickerAndViewerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FD29F49E3C21293CAD1F55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYPhotoPickerAndViewerUITests/Pods-KYPhotoPickerAndViewerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D5C291B1FF4E93A000E7087 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D5C29251FF4E93A000E7087 /* ViewController.swift in Sources */,
+				8D5C29621FF4EB93000E7087 /* KYMutiPickerHeader.swift in Sources */,
+				8D5C296A1FF4EB93000E7087 /* KYSquaredPickerView.swift in Sources */,
+				8D5C296F1FF4ECF7000E7087 /* Double+Time.swift in Sources */,
 				8D5C29231FF4E93A000E7087 /* AppDelegate.swift in Sources */,
+				8D5C29691FF4EB93000E7087 /* KYPreviewViewController.swift in Sources */,
+				8D5C29661FF4EB93000E7087 /* KYImagePickerCell.swift in Sources */,
+				8D5C296B1FF4EB93000E7087 /* KYImageViewBar.swift in Sources */,
+				8D5C29681FF4EB93000E7087 /* KYMutiPickerController.swift in Sources */,
+				8D5C29641FF4EB93000E7087 /* KYAddImageCell.swift in Sources */,
+				8D5C29631FF4EB93000E7087 /* KYTransformAnimation.swift in Sources */,
+				8D5C29601FF4EB93000E7087 /* KYImageView.swift in Sources */,
+				8D5C296C1FF4EB93000E7087 /* KYImageViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +699,7 @@
 		};
 		8D5C29481FF4E93A000E7087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8233C1B5659B913144E0F3 /* Pods-KYPhotoPickerAndViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +714,7 @@
 		};
 		8D5C29491FF4E93A000E7087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C8AEB37467362A90DD644D /* Pods-KYPhotoPickerAndViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +729,7 @@
 		};
 		8D5C294B1FF4E93A000E7087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CB4A9E191D56BA89F89472 /* Pods-KYPhotoPickerAndViewerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +746,7 @@
 		};
 		8D5C294C1FF4E93A000E7087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937B3C27D5E2B33FF296564B /* Pods-KYPhotoPickerAndViewerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +763,7 @@
 		};
 		8D5C294E1FF4E93A000E7087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0F4FB29DF4EFB4BE86F941 /* Pods-KYPhotoPickerAndViewerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +779,7 @@
 		};
 		8D5C294F1FF4E93A000E7087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8742CABB6E4E751C47B7B2E2 /* Pods-KYPhotoPickerAndViewerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

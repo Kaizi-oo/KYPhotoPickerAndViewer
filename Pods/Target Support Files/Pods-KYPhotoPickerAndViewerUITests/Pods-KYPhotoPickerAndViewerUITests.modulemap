@@ -1,0 +1,6 @@
+framework module Pods_KYPhotoPickerAndViewerUITests {
+  umbrella header "Pods-KYPhotoPickerAndViewerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
